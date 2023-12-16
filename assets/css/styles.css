@@ -302,11 +302,12 @@ img {
 
 .home_blob{
   width: 200px;
-  fill: var(--first-color);
+  height: 307px;
+  fill: #EAEDED;
 }
 
 .home_blob-img{
-  width: 170px;
+  width: 190px;
 }
 
 .home_data{
@@ -374,6 +375,7 @@ transition:.3s;
 
 /*==================== BUTTONS ====================*/
 .button{
+  border: none;
   display: inline-block;
   background-color: var(--first-color);
   color: #FFF;
@@ -389,7 +391,7 @@ transition:.3s;
 .button_icon{
   font-size: 1.25rem;
   margin-left: var(--mb-0-5);
-  transition: .3s;
+  transition: .9s;
 }
 
 .button--white{
@@ -425,8 +427,7 @@ transition:.3s;
 .about_img{
   width: 230px;
   border-radius:.5rem;
-  justify-self: center;
-  align-self: center;
+
 }
 .about_description{
   text-align: center;
@@ -933,7 +934,7 @@ color: var(--first-color);
 }
 .footer_bg{
   background-color:var(--first-color);
-  padding: 2rem 0 3rem;
+  
 }
 
 .footer_title{
@@ -983,9 +984,9 @@ color: var(--first-color);
   right: 1rem;
   bottom: -20%;
   background-color: var(--first-color);
-  opacity: .9;
+  opacity: .7;
   padding: 0 .3rem;
-  border-radius: .6rem;
+  border-radius: .9rem;
   z-index: var(--z-tooltip);
   transition: .4s;
 }
@@ -1040,6 +1041,12 @@ color: var(--first-color);
   .home_blob{
     width: 190px;
   }
+  .about_img{
+    width: 270px;
+    border-radius:.5rem;
+    justify-self: center;
+    align-self: center;
+  }
   .skills_title{
     font-size: var(--normal-font-size);
   }
@@ -1086,6 +1093,7 @@ color: var(--first-color);
     border: 1;
     justify-self: center;
   }
+  
   .about_container,
   .skills_container,
   .portfolio_content,
@@ -1150,7 +1158,7 @@ color: var(--first-color);
     column-gap: 2rem;
   }
   .home_blob{
-    width: 270px;
+    width: 290px;
   }
   .home_scroll{
     display: block;
@@ -1163,7 +1171,9 @@ color: var(--first-color);
   }
   .about_img{
     width:350px;
-  }
+    border-radius:.5rem;
+    justify-self: center;
+    }
   .about_description{
     text-align:initial;
   }
@@ -1244,7 +1254,7 @@ color: var(--first-color);
     padding: 0;
   }
   .home_blob{
-    width: 320px;
+    width: 350px;
   }
   .home_social{
     transform: translateX(-6rem);
